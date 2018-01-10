@@ -1,0 +1,207 @@
+@font-face {
+    font-family: "Respective";
+    src: url("fonts/respective_Slanted.ttf");
+}
+
+@font-face {
+    font-family: "Adine";
+    src: url("fonts/AdineKirnberg-Alternate.ttf");
+}
+
+@font-face {
+    font-family: "Dubiel";
+    src: url("fonts/DUBIEL.ttf");
+}
+
+@font-face {
+    font-family: "Dubiel-italic";
+    src: url("fonts/DubielItalic.ttf");
+}
+
+body {
+    font-family: "Adine";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 50px;
+    max-width: 740px;
+    margin: 0 auto;
+}
+.header {
+    font-family: "DUBIEL";
+    font-size: 100px;
+    position: relative;
+    height: 200px;
+    width: 200px;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.header-c {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.header-g {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.header-slash {
+    border: 1px solid #C0C0C0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    transform: translate(-50%,-50%) rotate(28deg);
+}
+
+.welcome-line {
+    margin: 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.welcome-line > .line {
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    z-index: -1;
+}
+
+.welcome-text {
+    background: white;
+    padding: 0 20px;
+    font-size: 50px
+}
+
+.line {
+    margin: 30px;
+    width: 100%;
+    border-bottom: 1px solid #C0C0C0;
+}
+
+.date-invitation-container {
+    display: flex;
+    align-items: center;
+}
+
+.date-invitation-container > span {
+    font-size: 35px;
+}
+
+.date-container {
+    font-family: "Dubiel";
+    margin-right: 30px;
+    padding-right: 30px;
+    border-right: 1px solid #C0C0C0;
+}
+
+.date-container > .date {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.date-container > .year {
+    font-size: 100px;
+    color: #D4AF37;
+}
+
+.name-container {
+    font-family: "Dubiel-italic";
+    position: relative;
+    padding-right: 120px;
+}
+
+.name-container > div {
+    font-size: 85px;
+    color: #D4AF37;
+}
+
+.name-container > img {
+    position: absolute;
+    right: 0;
+    width: 125px;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+
+.dress-code-toast-masters-container {
+    display: flex;
+    align-items: center;
+}
+
+.dress-code {
+    padding-right: 30px;
+    margin-right: 30px;
+    border-right: 1px solid #C0C0C0;
+}
+
+.dress-code {
+    font-family: "Dubiel";
+}
+
+.dress-code-title {
+    font-family: "Adine";
+    font-size: 50px;
+}
+
+.toast-masters {
+    display: flex;
+}
+
+.toast-masters .mail {
+    font-family: "Dubiel";
+    border-right: 1px solid #C0C0C0;
+    padding-right: 10px;
+    margin-right: 10px;
+}
+
+.toast-masters .number {
+    font-family: "Dubiel";
+}
+
+.toast-masters-title {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.toast-masters-info {
+    font-size: 20px;
+}
+
+.good-to-know {
+    font-size: 20px;
+    font-family: "dubiel";
+    line-height: 25px;
+}
+
+.good-to-know > .title {
+    font-family: "Adine";
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.good-to-know > p {
+    margin: 0;
+}
+
+.good-to-know > p:first-of-type {
+    margin-bottom: 10px;
+}
+
+.babysitter {
+    font-size: 40px;
+}
+
+.welcome-finish {
+    font-size: 80px;
+    margin-top: 60px;
+    color: #D4AF37;
+}
