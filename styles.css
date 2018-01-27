@@ -1,40 +1,40 @@
 @font-face {
-    font-family: "Respective";
-    src: url("fonts/respective_Slanted.ttf");
+    font-family: "century-regular";
+    src: url("fonts/century-regular.ttf")
 }
 
 @font-face {
-    font-family: "Adine";
-    src: url("fonts/AdineKirnberg-Alternate.ttf");
+    font-family: "century-italic";
+    src: url("fonts/century-italic.TTF")
 }
 
 @font-face {
-    font-family: "Dubiel";
-    src: url("fonts/DUBIEL.ttf");
+    font-family: "darleston";
+    src: url("fonts/Darleston.otf")
 }
 
-@font-face {
-    font-family: "Dubiel-italic";
-    src: url("fonts/DubielItalic.ttf");
+a {
+    text-decoration: none;
 }
 
 body {
-    font-family: "Adine";
+    font-size: 20px;
+    font-family: "darleston";
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 50px;
-    max-width: 740px;
+    padding: 0 2.5em;
+    max-width: 800px;
     margin: 0 auto;
 }
 .header {
-    font-family: "DUBIEL";
-    font-size: 100px;
+    font-family: "century-regular";
+    font-size: 5em;
     position: relative;
-    height: 200px;
-    width: 200px;
-    margin-top: 60px;
-    margin-bottom: 30px;
+    height: 2em;
+    width: 2em;
+    margin-top: 0.6em;
+    margin-bottom: 0.3em;
 }
 
 .header-c {
@@ -50,7 +50,7 @@ body {
 }
 
 .header-slash {
-    border: 1px solid #C0C0C0;
+    border-right: 3px solid #C0C0C0;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -59,7 +59,7 @@ body {
 }
 
 .welcome-line {
-    margin: 30px;
+    margin: 1.5em;
     width: 100%;
     position: relative;
     text-align: center;
@@ -75,14 +75,14 @@ body {
 
 .welcome-text {
     background: white;
-    padding: 0 20px;
-    font-size: 50px
+    font-size: 2em;
+    padding: 0 0.2em;
 }
 
 .line {
-    margin: 30px;
+    margin: 1.5em;
     width: 100%;
-    border-bottom: 1px solid #C0C0C0;
+    border-bottom: 3px solid #C0C0C0;
 }
 
 .date-invitation-container {
@@ -91,41 +91,57 @@ body {
 }
 
 .date-invitation-container > span {
-    font-size: 35px;
+    font-size: 2em;
+    line-height: 1.4em
+}
+
+.date-invitation-container span.time {
+    font-size: 0.6em
 }
 
 .date-container {
-    font-family: "Dubiel";
-    margin-right: 30px;
-    padding-right: 30px;
-    border-right: 1px solid #C0C0C0;
+    font-family: "century-regular";
+    margin-right: 1.5em;
+    padding-right: 1.5em;
+    border-right: 3px solid #C0C0C0;
 }
 
 .date-container > .date {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 1.7em;
+    text-align: center;
 }
 
 .date-container > .year {
-    font-size: 100px;
-    color: #D4AF37;
+    font-size: 5em;
+    color: #ae9a65;
 }
 
 .name-container {
-    font-family: "Dubiel-italic";
+    white-space: nowrap;
+    font-family: "century-italic";
     position: relative;
-    padding-right: 120px;
+    padding-right: 6em;
 }
 
 .name-container > div {
-    font-size: 85px;
-    color: #D4AF37;
+    font-size: 3.5em;
+    color: #ae9a65;
+}
+
+.ampersand {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translatey(-40%);
+    font-family: darleston;
+    color: black;
+    font-size: 8em;
 }
 
 .name-container > img {
     position: absolute;
     right: 0;
-    width: 125px;
+    width: 6.25em;
     top: 50%;
     transform: translateY(-50%);
     z-index: -1;
@@ -137,55 +153,63 @@ body {
     align-items: center;
 }
 
-.dress-code {
-    padding-right: 30px;
-    margin-right: 30px;
-    border-right: 1px solid #C0C0C0;
+.toast-masters-info-container {
+    padding-bottom: 0.3em;
+    padding-left: 0.5em;
 }
 
 .dress-code {
-    font-family: "Dubiel";
+    padding-right: 1.5em;
+    margin-right: 1.5em;
+    border-right: 3px solid #C0C0C0;
+    white-space: nowrap;
+}
+
+.dress-code {
+    font-family: "century-regular";
 }
 
 .dress-code-title {
-    font-family: "Adine";
-    font-size: 50px;
+    font-family: "darleston";
+    font-size: 2em;
+}
+
+.dress-code-actual {
+    font-size: 1.2em;
+    font-family: "century-regular";
+    color: #ae9a65;
 }
 
 .toast-masters {
     display: flex;
+    align-items: center;
 }
 
-.toast-masters .mail {
-    font-family: "Dubiel";
-    border-right: 1px solid #C0C0C0;
-    padding-right: 10px;
-    margin-right: 10px;
+.toast-masters .info {
+    color: #ae9a65;
+    font-family: "century-regular";
+    white-space: nowrap;
+    font-size: 1.1em;
 }
 
-.toast-masters .number {
-    font-family: "Dubiel";
+.info > a {
+    color: #ae9a65;
 }
 
 .toast-masters-title {
-    font-size: 50px;
-    margin-right: 10px;
+    font-size: 2em;
+    line-height: 0.6em;
 }
 
 .toast-masters-info {
-    font-size: 20px;
+    font-size: 1em;
 }
 
 .good-to-know {
-    font-size: 20px;
-    font-family: "dubiel";
-    line-height: 25px;
-}
-
-.good-to-know > .title {
-    font-family: "Adine";
-    font-size: 50px;
-    margin-bottom: 20px;
+    font-size: 1.2em;
+    font-family: "century-regular";
+    line-height: 1.25em;
+    color: #ae9a65;
 }
 
 .good-to-know > p {
@@ -193,15 +217,21 @@ body {
 }
 
 .good-to-know > p:first-of-type {
-    margin-bottom: 10px;
+    margin-bottom: 0.5em;
 }
 
 .babysitter {
-    font-size: 40px;
+    font-size: 2em;
 }
 
 .welcome-finish {
-    font-size: 80px;
-    margin-top: 60px;
-    color: #D4AF37;
+    font-size: 2.5em;
+    margin: 0 0 0.9em 0;
+    color: #ae9a65;
+}
+
+@media (max-width: 750px) {
+    .body {
+        font-size: 10px;
+    }
 }
