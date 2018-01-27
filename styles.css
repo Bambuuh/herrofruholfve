@@ -50,7 +50,7 @@ body {
 }
 
 .header-slash {
-    border-right: 3px solid #C0C0C0;
+    border-right: 3px solid #9c9c9c;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -82,7 +82,7 @@ body {
 .line {
     margin: 1.5em;
     width: 100%;
-    border-bottom: 3px solid #C0C0C0;
+    border-bottom: 3px solid #9c9c9c;
 }
 
 .date-invitation-container {
@@ -103,7 +103,7 @@ body {
     font-family: "century-regular";
     margin-right: 1.5em;
     padding-right: 1.5em;
-    border-right: 3px solid #C0C0C0;
+    border-right: 3px solid #9c9c9c;
 }
 
 .date-container > .date {
@@ -161,7 +161,7 @@ body {
 .dress-code {
     padding-right: 1.5em;
     margin-right: 1.5em;
-    border-right: 3px solid #C0C0C0;
+    border-right: 3px solid #9c9c9c;
     white-space: nowrap;
 }
 
