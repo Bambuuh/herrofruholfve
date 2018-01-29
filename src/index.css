@@ -1,0 +1,145 @@
+@font-face {
+  font-family: "century-regular";
+  src: url("./fonts/century-regular.ttf")
+}
+
+@font-face {
+  font-family: "century-italic";
+  src: url("./fonts/century-italic.TTF")
+}
+
+@font-face {
+  font-family: "darleston";
+  src: url("./fonts/Darleston.otf")
+}
+
+body {
+  font-family: "century-regular" !important;
+}
+
+.section-container.section {
+  padding-top: 0;
+}
+
+.line {
+  margin: 20px 0;
+  display: block;
+  border-bottom: 3px solid #9c9c9c;
+}
+
+.silver {
+  color: #9c9c9c;
+}
+
+.gold {
+  color: #ae9a65;
+}
+
+.cursive {
+  font-family: "darleston";
+}
+
+.italic {
+  font-family: "century-italic";
+}
+
+.header-wrapper {
+  margin-top: 48px;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  font-family: "century-regular";
+  font-size: 100px;
+  line-height: 100px;
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.header-c {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-g {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.header-slash {
+  opacity: 0.2;
+  border-right: 3px solid #9c9c9c;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: 100%;
+  transform: translate(-50%,-50%) rotate(28deg);
+}
+
+div.welcome-text-container {
+  position: relative;
+  margin-top: 48px;
+  padding-bottom: 0;
+}
+
+.welcome-text {
+  white-space: nowrap;
+  font-size: 40px;
+  position: absolute;
+  background: white;
+  top: 0;
+  left: 50%;
+  padding: 0 20px;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-text span {
+  background: white;
+}
+
+.name-section {
+  text-align: center;
+}
+
+.name-container {
+  white-space: nowrap;
+  position: relative;
+  padding-right: 6em;
+  display: inline-block;
+  text-align: initial;
+}
+
+.name-container > div {
+  font-size: 3.5em;
+  color: #ae9a65;
+}
+
+.ampersand {
+  position: absolute;
+  right: calc(50% - 230px);
+  top: 50%;
+  transform: translatey(-40%);
+  font-family: darleston;
+  color: black;
+  font-size: 8em;
+  z-index: -1;
+}
+
+@media (max-width: 670px) {
+  .header-c {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .header-g {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
+  
+}

@@ -29,7 +29,7 @@ body {
 }
 .header {
     font-family: "century-regular";
-    font-size: 5em;
+    font-size: 50px;
     position: relative;
     height: 2em;
     width: 2em;
@@ -59,7 +59,7 @@ body {
 }
 
 .welcome-line {
-    margin: 1.5em;
+    margin: 30px;
     width: 100%;
     position: relative;
     text-align: center;
@@ -75,12 +75,12 @@ body {
 
 .welcome-text {
     background: white;
-    font-size: 2em;
-    padding: 0 0.2em;
+    font-size: 40px;
+    padding: 0 10px;
 }
 
 .line {
-    margin: 1.5em;
+    margin: 30pxm;
     width: 100%;
     border-bottom: 3px solid #9c9c9c;
 }
