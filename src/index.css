@@ -15,6 +15,7 @@
 
 body {
   font-family: "century-regular" !important;
+  font-size: 10px;
 }
 
 .section-container.section {
@@ -108,38 +109,70 @@ div.welcome-text-container {
 .name-container {
   white-space: nowrap;
   position: relative;
-  padding-right: 6em;
+  padding-right: 55px;
   display: inline-block;
   text-align: initial;
 }
 
 .name-container > div {
-  font-size: 3.5em;
+  font-size: 55px;
   color: #ae9a65;
 }
 
 .ampersand {
   position: absolute;
-  right: calc(50% - 230px);
+  right: 0;
   top: 50%;
   transform: translatey(-40%);
   font-family: darleston;
   color: black;
-  font-size: 8em;
+  font-size: 125px;
   z-index: -1;
 }
 
-@media (max-width: 670px) {
-  .header-c {
-    position: absolute;
-    top: 0;
-    left: 0;
+@media (max-width: 640px) {
+  .name-container > div {
+    font-size: 40px;
   }
-  
-  .header-g {
-    position: absolute;
-    bottom: 0;
-    right: 0;
+
+  .welcome-text {
+    font-size: 30px;
   }
-  
+
+  .header {
+    font-size: 80px;
+    line-height: 80px;
+    height: 160px;
+    width: 160px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .header {
+    font-size: 65px;
+    line-height: 65px;
+    height: 130px;
+    width: 130px;
+  }
+
+  .name-container {
+    padding-right: 0;    
+  }
+
+  .name-container > div {
+    font-size: 30px;
+  }
+
+  .name-container > div:first-of-type {
+    margin-bottom: 55px;
+  }
+
+  .ampersand {
+    right: 50%;
+    top: 50%;
+    transform: translate(50%, -45%);
+    font-size: 65px;
+  }
 }
