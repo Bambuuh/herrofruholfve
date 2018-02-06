@@ -48,6 +48,9 @@ class App extends Component {
             <p className="number-wrapper">
               Tel: <a href="tel:0761362694">0761 36 26 94</a>
             </p>
+            <p>
+              Mail: <a href="mailto:h.holfve@gmail.com">h.holfve@gmail.com</a>
+            </p>
           </div>
         </Section>
         <Section className="name-section">
@@ -58,7 +61,7 @@ class App extends Component {
         </Section>
         <Section className="name-section">
           <div className="section-heading gold italic">
-            <div>Dresscode</div>
+            <div>Klädkod</div>
           </div>
           {/* 
           Lägg klädkoderna för män och kvinnor brevid varandra 
