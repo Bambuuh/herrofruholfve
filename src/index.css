@@ -153,6 +153,10 @@ iframe {
   padding: 0 40px;
 }
 
+.section:last-of-type {
+  text-align: center;
+}
+
 .section-heading {
   font-size: 40px;
   margin-bottom: 30px;
@@ -218,7 +222,7 @@ p {
   }
 
   .google-map {
-    max-width: 380px
+    width: 100%;
   }
 
   .adress-container {
@@ -228,6 +232,15 @@ p {
   .adress-container > p {
     display: inline-block;
     margin-bottom: 40px;
+    margin-right: 0;
+  }
+
+  .section {
+    padding: 0 15px;
+  }
+
+  .section-heading {
+    font-size: 30px;
   }
 }
 
@@ -259,7 +272,7 @@ p {
     font-size: 65px;
   }
 
-  .google-map {
-    max-width: 250px
+  .section-heading {
+    font-size: 25px;
   }
 }
