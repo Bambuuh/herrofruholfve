@@ -20,7 +20,7 @@ class App extends Component {
           </div>
         </Section>
         <Section className="name-section">
-        {/* 
+          {/* 
         Adress och resväg tänker jag mig att man ska ha texten till vänster och kartan till höger
         på små skärmar så kör man texten över och kartan under.
         */}
@@ -64,20 +64,22 @@ class App extends Component {
           Lägg klädkoderna för män och kvinnor brevid varandra 
           Text tagen från: http://www.amelia.se/artiklar/bjuden-pa-brollop-eller-fest-sa-har-tyder-du-kladkoden/
         */}
-        <div className="dress-code-container">
-          <div>
-            <p className="dress-code-title cursive"><b>Klädkod för män:</b></p> <p>Klädkoden innebär hel kostym, men den kan vara i en lite ljusare nyans om man vill. Till det kan männen bära slips eller fluga. Jeans är däremot inte okej.</p>
+          <div className="dress-code-container">
+            <div>
+              <p className="dress-code-title cursive"><b>Klädkod för män:</b></p> <p>Klädkoden innebär hel kostym, men den kan vara i en lite ljusare nyans om man vill. Till det kan männen bära slips eller fluga. Jeans är däremot inte okej.</p>
+            </div>
+            <div>
+              <p className="dress-code-title cursive"><b>Klädkod för kvinnor:</b></p> <p>Som kvinna kan du bära en klänning, kjol eller byxdress som är finare än en vanlig vardagsklädsel men inte lika tjusig som aftonklänning. En hellång klänning är för uppklätt men du kan välja en modell som är vadlång eller knälång.</p>
+            </div>
           </div>
-          <div>
-            <p className="dress-code-title cursive"><b>Klädkod för kvinnor:</b></p> <p>Som kvinna kan du bära en klänning, kjol eller byxdress som är finare än en vanlig vardagsklädsel men inte lika tjusig som aftonklänning. En hellång klänning är för uppklätt men du kan välja en modell som är vadlång eller knälång.</p>
-          </div>
-        </div>
         </Section>
         <Section className="osa-section">
           <div className="section-heading gold italic">
             <div>OSA</div>
           </div>
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqPB0QNAxA9TJBMX9MJGx-Iir3l83XEwooIZhq44lm4etX9g/viewform?embedded=true" width="100%" height="1425px" frameBorder="0" marginHeight="0" marginWidth="0">Läser in...</iframe>
+          <div style={{ height: 1425, width: '100%' }}>
+            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqPB0QNAxA9TJBMX9MJGx-Iir3l83XEwooIZhq44lm4etX9g/viewform?embedded=true" width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" scrolling="no">Läser in...</iframe>
+          </div>
         </Section>
       </div>
     );

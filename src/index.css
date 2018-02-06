@@ -242,6 +242,15 @@ p {
   .section-heading {
     font-size: 30px;
   }
+
+  p {
+    font-size: 15px;
+  }
+
+  .dress-code-title {
+    font-size: 30px;
+  }
+
 }
 
 @media (max-width: 480px) {
