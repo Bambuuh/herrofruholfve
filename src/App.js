@@ -6,6 +6,7 @@ import Section from './components/Section'
 
 class App extends Component {
   render() {
+    document.title = 'Herr & Fru Holfve';
     return (
       <div className="container is-tablet">
         <CG />
