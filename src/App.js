@@ -67,23 +67,25 @@ class App extends Component {
           <div className="section-heading gold italic">
             <div>Toastmasters</div>
           </div>
-          <div>
-            <p><b>Carolin Lundblad</b></p>
-            <p className="number-wrapper">
-              Tel: <a href="tel:0735596037">0735 59 60 37</a>
-            </p>
-            <p>
-              Mail: <a href="mailto:lundbladcarolin@gmail.com">lundbladcarolin@gmail.com</a>
-            </p>
-          </div>
-          <div>
-            <p><b>Hanna Holfve</b></p>
-            <p className="number-wrapper">
-              Tel: <a href="tel:0761362694">0761 36 26 94</a>
-            </p>
-            <p>
-              Mail: <a href="mailto:h.holfve@gmail.com">h.holfve@gmail.com</a>
-            </p>
+          <div class="toast-masters-info-wrapper">
+            <div>
+              <p><b>Carolin Lundblad</b></p>
+              <p className="number-wrapper">
+                Tel: <a href="tel:0735596037">0735 59 60 37</a>
+              </p>
+              <p>
+                Mail: <a href="mailto:lundbladcarolin@gmail.com">lundbladcarolin@gmail.com</a>
+              </p>
+            </div>
+            <div>
+              <p><b>Hanna Holfve</b></p>
+              <p className="number-wrapper">
+                Tel: <a href="tel:0761362694">0761 36 26 94</a>
+              </p>
+              <p>
+                Mail: <a href="mailto:h.holfve@gmail.com">h.holfve@gmail.com</a>
+              </p>
+            </div>
           </div>
         </Section>
         <Section className="name-section">
