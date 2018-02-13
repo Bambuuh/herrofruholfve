@@ -53,8 +53,31 @@ class App extends Component {
           <div>
             <p>
               Hör av dig till Hanna Holfve för hjälp med bokning på något av Clarions hotell i Stockholm.
-            Vi kommer att bo på Clarion Sign vid Norra Bantorget.
+          Vi kommer att bo på Clarion Sign vid Norra Bantorget.
+          </p>
+            <p className="number-wrapper">
+              Tel: <a href="tel:0761362694">0761 36 26 94</a>
             </p>
+            <p>
+              Mail: <a href="mailto:h.holfve@gmail.com">h.holfve@gmail.com</a>
+            </p>
+          </div>
+        </Section>
+        <Section className="toastmasters">
+          <div className="section-heading gold italic">
+            <div>Toastmasters</div>
+          </div>
+          <div>
+            <p><b>Carolin Lundblad</b></p>
+            <p className="number-wrapper">
+              Tel: <a href="tel:0735596037">0735 59 60 37</a>
+            </p>
+            <p>
+              Mail: <a href="mailto:lundbladcarolin@gmail.com">lundbladcarolin@gmail.com</a>
+            </p>
+          </div>
+          <div>
+            <p><b>Hanna Holfve</b></p>
             <p className="number-wrapper">
               Tel: <a href="tel:0761362694">0761 36 26 94</a>
             </p>
