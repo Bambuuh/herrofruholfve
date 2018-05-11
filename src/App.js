@@ -11,7 +11,7 @@ class App extends Component {
       <div className="container is-tablet">
         <CG />
         <Section className="welcome-text-container">
-          <span className="welcome-text cursive">Välkommen till vårt bröllop</span>
+          <span className="welcome-text cursive">Välkommen till vårt bröllop den 11 Augusti</span>
         </Section>
         <Section className="name-section">
           <div className="name-container italic">
@@ -43,7 +43,7 @@ class App extends Component {
             Hit tar man sig enkelt med buss, antingen 401 från Slussen (hållplats Ormunksvägen)
             eller buss 801 från Gullmarsplan (hållplats Älta Gård).
             </p>
-            <iframe className="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.0864301645151!2d18.17694285124697!3d59.264705023154875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f78dfa34ccae3%3A0x99e6ddb221dc6bbc!2zw4RsdGF2w6RnZW4gMTU5QiwgMTM4IDM3IMOEbHRh!5e0!3m2!1ssv!2sse!4v1517860723197" width="600" height="450" frameBorder="0"></iframe>
+            <iframe title="karta" className="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.0864301645151!2d18.17694285124697!3d59.264705023154875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f78dfa34ccae3%3A0x99e6ddb221dc6bbc!2zw4RsdGF2w6RnZW4gMTU5QiwgMTM4IDM3IMOEbHRh!5e0!3m2!1ssv!2sse!4v1517860723197" width="600" height="450" frameBorder="0"></iframe>
           </div>
         </Section>
         <Section className="name-section">
@@ -143,7 +143,7 @@ class App extends Component {
             <div>OSA</div>
           </div>
           <div style={{ height: 1425, width: '100%' }}>
-            <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScqPB0QNAxA9TJBMX9MJGx-Iir3l83XEwooIZhq44lm4etX9g/viewform?embedded=true" width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" scrolling="no">Läser in...</iframe>
+            <iframe title="OSA" src="https://docs.google.com/forms/d/e/1FAIpQLScqPB0QNAxA9TJBMX9MJGx-Iir3l83XEwooIZhq44lm4etX9g/viewform?embedded=true" width="100%" height="100%" frameBorder="0" marginHeight="0" marginWidth="0" scrolling="no">Läser in...</iframe>
           </div>
         </Section>
       </div>
