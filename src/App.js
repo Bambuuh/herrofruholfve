@@ -35,13 +35,18 @@ class App extends Component {
         på små skärmar så kör man texten över och kartan under.
         */}
           <div className="section-heading gold italic">
-            <div>Adress & resväg</div>
+            <div>Datum, Adress & resväg</div>
           </div>
           <div className="adress-container">
-            <p>
-              Festen äger rum hemma hos Gustavs föräldrar på Ältavägen 159B i Nacka.
-            Hit tar man sig enkelt med buss, antingen 401 från Slussen (hållplats Ormunksvägen)
-            eller buss 801 från Gullmarsplan (hållplats Älta Gård).
+          <p>
+            <strong>När:</strong> 11 Augusti
+            <br/>
+            <br/>
+            <strong>Var:</strong> Festen äger rum hemma hos Gustavs föräldrar på Ältavägen 159B i Nacka.
+            <br/>
+            <br/>
+            <strong>Hur:</strong> Man sig enkelt dit med buss, antingen 401 från Slussen (hållplats Ormunksvägen)
+            eller buss 801 från Gullmarsplan (hållplats Almvägen).
             </p>
             <iframe title="karta" className="google-map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2039.0864301645151!2d18.17694285124697!3d59.264705023154875!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465f78dfa34ccae3%3A0x99e6ddb221dc6bbc!2zw4RsdGF2w6RnZW4gMTU5QiwgMTM4IDM3IMOEbHRh!5e0!3m2!1ssv!2sse!4v1517860723197" width="600" height="450" frameBorder="0"></iframe>
           </div>
