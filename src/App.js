@@ -39,7 +39,7 @@ class App extends Component {
           </div>
           <div className="adress-container">
           <p>
-            <strong>När:</strong> 11 Augusti
+            <strong>När:</strong> 11 Augusti, 17:00
             <br/>
             <br/>
             <strong>Var:</strong> Festen äger rum hemma hos Gustavs föräldrar på Ältavägen 159B i Nacka.
@@ -99,7 +99,13 @@ class App extends Component {
           </div>
           <p>
             Vi behöver inte fler prylar,
-            men vill ni ge oss en bröllopspresent så får ni gärna ge ett bidrag till vår bröllopsresa.
+            men vill ni ge oss en bröllopspresent så får ni gärna ge ett bidrag till vår bröllopsresa,
+            vi hoppas kunna ta oss hela vägen till Kanada!
+          </p>
+          <br/>
+          <p>
+            Önskar ni Swisha så gör ni det till <b>0700 02 94 14</b>.
+            Vill ni hellre göra en gammal hederlig banköverföring så gör ni det till <b>9272-322 187 3</b> (ICA Banken)
           </p>
         </Section>
 
